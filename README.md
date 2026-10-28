@@ -17,17 +17,22 @@ After graduation, I hope to pursue a career in data analytics, where I can apply
 
 ## Data Visualization
 This section showcases my work on data visualization. 
-[View Data Visualization](dataviz-examples)
+
+[View Data Visualization](dataviz-examples.md)
 
 ## Critique by Design
 This section showcases my work on evaluating and improving existing data visualizations.
-[View Critique by Design](critique-by-design)
+
+[View Critique by Design](critique-by-design.md)
 
 ## Final project
 This section showcases my final project for the Telling Stories with Data course.
-[View Part I](final-project-part-one)
-[View Part II](final-project-part-two)
-[View Part III](final-project-part-three)
+
+[View Part I](final-project-part-one.md)
+
+[View Part II](final-project-part-two.md)
+
+[View Part III](final-project-part-three.md)
 
 ## AI acknowledgements
 I used ChatGPT to help improve the clarity and flow of my writing, as well as to check grammar and word choice.
