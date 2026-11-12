@@ -45,3 +45,4 @@ I kept the logarithmic scale for GDP per capita but wanted to make it clearer th
 ### Initial Wireframe
 
 The sketch below shows my initial plan for the redesigned visualization.
+[View My Initial Wireframe (PDF)](wireframe.pdf)
