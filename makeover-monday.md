@@ -2,11 +2,7 @@
 
 ## Introduction
 
-For this assignment, I selected a visualization from Makeover Monday that explores the relationship between GDP per capita and life satisfaction across countries in 2017.
-
-The original visualization shows a positive relationship between GDP per capita and life satisfaction. However, some country labels overlap, and the different circle sizes are not clearly explained. The logarithmic scale on the x-axis may also be difficult for readers to understand.
-
-My goal is to redesign the visualization to make it easier to compare countries, identify regional patterns, and understand the relationship between GDP per capita and life satisfaction.
+For this assignment, I selected a visualization from Makeover Monday that explores the relationship between GDP per capita and life satisfaction across countries in 2017. Although the original chart shows a positive relationship between the two variables, some design choices make it difficult to read and compare individual countries. My goal is to redesign the visualization to make it easier to compare countries and better understand the relationship between GDP per capita and life satisfaction.
 
 
 ## Original Visualization and Data Source
@@ -68,7 +64,7 @@ Both participants could understand the positive relationship between GDP per cap
 
 ### Planned Improvements
 
-Based on their feedback, I decided to revise the title to communicate the main takeaway more clearly and simplify the colors by using gray for most countries. Instead of highlighting several countries without a clear purpose, I planned to focus on Costa Rica and Botswana because they have similar GDP per capita but very different life satisfaction scores. I also planned to use orange to highlight these two countries and add an annotation explaining their differences. This would allow readers to see the overall positive relationship while also understanding why these two countries are worth comparing.
+Based on their feedback, I decided to revise the title to communicate the main takeaway more clearly and simplify the color scheme. I also planned to focus on two countries with similar GDP per capita but very different life satisfaction scores, rather than highlighting several countries without a clear purpose. To make this comparison clearer, I planned to add a short annotation explaining why these countries were selected.
 
 
 ## Final Redesign in Tableau
@@ -76,7 +72,7 @@ After receiving feedback from my two peers, I revised my visualization to make t
 
 I decided to focus on Costa Rica and Botswana because they have nearly identical GDP per capita ($15,525 and $15,807), but very different life satisfaction scores (7.23 and 3.50). I added an annotation to highlight this 3.73-point difference and explain why these two countries are worth comparing. These changes help readers see the overall positive relationship while also recognizing that GDP per capita alone does not fully explain differences in life satisfaction.
 
-Compared with my initial wireframe, my final visualization uses a simpler color scheme and focuses on two specific countries instead of regional differences. Although I originally planned to use different colors for continents, the peer feedback helped me realize that this was not necessary for the story I wanted to tell. I kept the equal-sized circles, limited country labels, and tooltips from my original plan, but shifted the focus to comparing Costa Rica and Botswana.
+Compared with my initial wireframe, I kept the equal-sized circles, limited country labels, and tooltips, but changed the focus of the visualization based on my peers' feedback. Instead of emphasizing regional differences, I wanted to tell a more specific story through the comparison of Costa Rica and Botswana.
 
 ### Final Visualization
 
