@@ -25,6 +25,12 @@ This section showcases my work on evaluating and improving existing data visuali
 
 [View Critique by Design](critique-by-design.md)
 
+## Makeover Monday
+
+This section showcases my redesign of a data visualization exploring the relationship between GDP per capita and life satisfaction.
+
+[View Makeover Monday](makeover-monday.md)
+
 ## Final project
 This section showcases my final project for the Telling Stories with Data course.
 
