@@ -34,8 +34,6 @@ My goal is to make the visualization easier to read and compare. I plan to use c
 
 ## Wireframe and Initial Redesign
 
-Wireframe and Initial Redesign
-
 Before creating the visualization in Tableau, I sketched a wireframe to plan how I wanted to improve the original chart.
 
 In my redesign, I decided to use circles of the same size and label only a few selected countries to reduce clutter. I also planned to include tooltips so readers could explore individual countries without displaying too much information on the chart.
@@ -45,4 +43,37 @@ I kept the logarithmic scale for GDP per capita but wanted to make it clearer th
 ### Initial Wireframe
 
 The sketch below shows my initial plan for the redesigned visualization.
-[View My Initial Wireframe (PDF)](wireframe.pdf)
+![Initial Wireframe](wireframe.png)
+
+## Peer Testing and Feedback
+
+I shared my visualization with two participants:
+
+**Participant 1**: MAM student with experience in arts education and fundraising.
+
+**Participant 2**: MISM-BIDA student with previous experience as a business analyst.
+
+### Key Feedback
+
+**Strengths**: Both participants recognized the positive relationship between GDP per capita and life satisfaction. The chart was easy to read.
+
+**Colors**: Too many colors made it difficult to focus on the main message.
+
+**Country Labels**: The purpose of highlighting specific countries was unclear.
+
+**Title**: The main takeaway could be communicated more clearly.
+
+### Planned Improvements
+
+Based on their feedback, I plan to revise the title to emphasize that countries with higher GDP per capita generally report higher life satisfaction. Instead of using six different colors to represent continents, I plan to show most countries in light gray and use a contrasting color to highlight a few countries that illustrate exceptions to this relationship. I also plan to add short annotations explaining how these countries differ from the general pattern, so readers can understand why they were selected.
+
+## Final Redesign in Tableau
+After receiving feedback from my two peers, I revised my visualization to make the main message clearer and reduce unnecessary distractions. I changed the title to highlight the positive relationship between GDP per capita and life satisfaction. Instead of using different colors to represent continents, I changed most data points to gray and used orange to highlight only the countries relevant to my story. I also adjusted the y-axis range from 0–8 to 2–8 to reduce empty space while keeping the scale visible.
+
+I decided to focus on Costa Rica and Botswana because they have nearly identical GDP per capita ($15,525 and $15,807), but very different life satisfaction scores (7.23 and 3.50). I added an annotation to highlight this 3.73-point difference and explain why these two countries are worth comparing. These changes help readers see the overall positive relationship while also recognizing that GDP per capita alone does not fully explain differences in life satisfaction.
+
+### Final Visualization
+
+[View my final visualization on Tableau Public](https://public.tableau.com/app/profile/joy.kuo6896/viz/1_17945133428230/GDPperCapitavs_LifeSatisfaction2017?publish=yes)
+
+![Final Tableau Redesign](GDP%20per%20Capita%20vs.%20Life%20Satisfaction%20%282017%29.png)
