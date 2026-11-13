@@ -8,6 +8,7 @@ The original visualization shows a positive relationship between GDP per capita 
 
 My goal is to redesign the visualization to make it easier to compare countries, identify regional patterns, and understand the relationship between GDP per capita and life satisfaction.
 
+
 ## Original Visualization and Data Source
 
 The original visualization, *Self-reported Life Satisfaction vs. GDP per Capita (2017)*, was published by Our World in Data and featured in Makeover Monday.
@@ -17,6 +18,7 @@ The chart compares GDP per capita and self-reported life satisfaction across cou
 **Original Visualization**: [Our World in Data – Self-reported life satisfaction vs. GDP per capita](https://ourworldindata.org/happiness-and-life-satisfaction)
 
 **Data Source**: Our World in Data, using GDP per capita and life satisfaction data.
+
 
 ## Critique of the Original Visualization
 
@@ -32,6 +34,7 @@ One issue is that many country labels overlap, making it difficult to identify i
 
 My goal is to make the visualization easier to read and compare. I plan to use circles of the same size, label only selected countries, and provide additional information through tooltips. I also want to make the logarithmic scale clearer and use consistent regional categories to help readers compare countries.
 
+
 ## Wireframe and Initial Redesign
 
 Before creating the visualization in Tableau, I sketched a wireframe to plan how I wanted to improve the original chart.
@@ -44,6 +47,7 @@ I kept the logarithmic scale for GDP per capita but wanted to make it clearer th
 
 The sketch below shows my initial plan for the redesigned visualization.
 ![Initial Wireframe](wireframe.png)
+
 
 ## Peer Testing and Feedback
 
@@ -67,6 +71,7 @@ Both participants could understand the positive relationship between GDP per cap
 
 Based on their feedback, I decided to revise the title to communicate the main takeaway more clearly and simplify the colors by using gray for most countries. Instead of highlighting several countries without a clear purpose, I planned to focus on Costa Rica and Botswana because they have similar GDP per capita but very different life satisfaction scores. I also planned to use orange to highlight these two countries and add an annotation explaining their differences. This would allow readers to see the overall positive relationship while also understanding why these two countries are worth comparing.
 
+
 ## Final Redesign in Tableau
 After receiving feedback from my two peers, I revised my visualization to make the main message clearer and reduce unnecessary distractions. I changed the title to highlight the positive relationship between GDP per capita and life satisfaction. Instead of using different colors to represent continents, I changed most data points to gray and used orange to highlight only the countries relevant to my story. I also adjusted the y-axis range from 0–8 to 2–8 to reduce empty space while keeping the scale visible.
 
@@ -80,11 +85,13 @@ Compared with my initial wireframe, my final visualization uses a simpler color 
 
 ![Final Tableau Redesign](GDP%20per%20Capita%20vs.%20Life%20Satisfaction%20%282017%29.png)
 
+
 ## References
 
 Our World in Data — *Self-reported Life Satisfaction vs. GDP per Capita (2017)*. [Original Visualization](https://ourworldindata.org/happiness-and-life-satisfaction)
 
 Makeover Monday. [Makeover Monday](https://makeovermonday.vercel.app/dataset/2020w11-self-reported-life-satisfaction-vs-gdp-per-capita)
+
 
 ## AI Acknowledgements
 
