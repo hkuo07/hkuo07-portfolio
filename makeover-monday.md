@@ -15,7 +15,7 @@ The original visualization, *Self-reported Life Satisfaction vs. GDP per Capita 
 
 The chart compares GDP per capita and self-reported life satisfaction across countries in 2017.
 
-**Original Visualization**: [Our World in Data – Self-reported life satisfaction vs. GDP per capita](https://ourworldindata.org/happiness-and-life-satisfaction)
+**Original Visualization**: [Our World in Data – Self-reported life satisfaction vs. GDP per capita](https://ourworldindata.org/happiness-and-life-satisfaction)\
 **Data Source**: Our World in Data, using GDP per capita and life satisfaction data.
 
 
