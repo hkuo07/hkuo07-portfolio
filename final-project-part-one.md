@@ -48,9 +48,12 @@ Using the MovieLens 32M dataset, I plan to examine how common this gap is among 
   - Conclude the story.
 
 ## Initial sketches
-> Post images of your anticipated data visualizations (sketches are fine). They should mimic aspects of your outline, and include elements of your story.  
 
-Text here...
+### Sketch 1: Exploring the Preference Gap at the Individual Level
+
+![Comparison of rating frequency and average rating by genre](sketch1.png)
+
+These two bar charts compare an individual user's rating frequency and average rating across selected movie genres. I plan to use blue to highlight Drama, the user's most frequently rated genre, and orange to highlight Action, a less frequently rated but highly rated genre. Placing the charts side by side allows readers to easily identify the gap between rating habits and preferences.
 
 # The data
 > A couple of paragraphs that document your data source(s), and an explanation of how you plan on using your data. 
