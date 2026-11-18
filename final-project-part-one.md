@@ -55,26 +55,51 @@ Using the MovieLens 32M dataset, I plan to examine how common this gap is among 
 
 These two bar charts compare an individual user's rating frequency and average rating across selected movie genres. I plan to use blue to highlight Drama, the user's most frequently rated genre, and orange to highlight Action, a less frequently rated but highly rated genre. Placing the charts side by side allows readers to easily identify the gap between rating habits and preferences.
 
+### Sketch 2: How Common Is the Preference Gap?
+
+![Proportion of users with a preference gap](sketch2.png)
+
+This waffle chart will show the proportion of users whose most frequently rated genres differ from their highest-rated genres. I plan to use orange to represent users with a preference gap and gray to represent those without one. This visualization will help readers understand whether the preference gap is an isolated case or a common pattern among users.
+
+### Sketch 3: Discovering Hidden Tastes
+
+![Relationship between relative rating frequency and average rating](sketch3.png)
+
+This scatter plot will explore the relationship between relative rating frequency and average rating. I plan to use orange to highlight genres that users rate less frequently but more positively than their personal average. The two reference lines will help readers identify potential hidden tastes.
+
+### Sketch 4: Which Genres Are Hidden Tastes?
+
+![Movie genres most commonly identified as hidden tastes](sketch4.png)
+
+This horizontal bar chart will show the percentage of eligible users for whom each movie genre is identified as a potential hidden taste. I plan to arrange the genres in descending order and use orange to highlight the most common one, while keeping the remaining genres gray. This visualization will help recommendation system designers identify opportunities to introduce users to less-explored movie genres.
+
+*Note: The genre rankings and percentages shown are illustrative and do not represent actual analysis results.*
+
 # The data
-> A couple of paragraphs that document your data source(s), and an explanation of how you plan on using your data. 
 
-Text here...
+For this project, I will use the MovieLens 32M dataset, provided by the GroupLens Research Group at the University of Minnesota. The dataset contains 32,000,204 ratings across 87,585 movies from 200,948 users, collected between January 1995 and October 2023. I will primarily use two files: `movies.csv`, which contains movie IDs, titles, and genres, and `ratings.csv`, which contains user IDs, movie IDs, ratings, and timestamps.
 
-> A link to the publicly-accessible datasets you plan on using, or a link to a copy of the data you've uploaded to your Github repository, Box account or other publicly-accessible location. Using a datasource that is already publicly accessible is highly encouraged.  If you anticipate using a data source other than something that would be publicly available please talk to me first. 
+I plan to combine these two files using movie IDs and calculate the rating frequency and average rating for each genre at the individual user level. Since a movie can belong to multiple genres, I will associate each rating with all its listed genres and exclude movies without genre information. To identify potential hidden tastes, I plan to focus on genres with at least five ratings, a rating frequency no more than 50% of the user's most frequently rated genre, and an average rating above the user's personal average. These criteria will help me identify less frequently rated but positively rated genres while reducing the influence of limited rating observations.
+
+One limitation of this dataset is that it captures rating behavior rather than actual viewing history. Therefore, I will use rating frequency and average ratings as indicators of users' habits and preferences rather than direct measures of their viewing behavior.
+
+## Data Source
 
 | Name | URL | Description |
 |------|-----|-------------|
-|      |     |             |
-|      |     |             |
-|      |     |             |
+| MovieLens 32M Dataset | [GroupLens](https://grouplens.org/datasets/movielens/32m/) | Official dataset containing movie ratings and genre information. |
+| MovieLens 32M Data Files | [Download Dataset](https://files.grouplens.org/datasets/movielens/ml-32m.zip) | Downloadable ZIP file containing movies.csv, ratings.csv, and other supporting files. |
+| MovieLens 32M Documentation | [README](https://files.grouplens.org/datasets/movielens/ml-32m-README.html) | Documentation of the dataset structure, collection process, and usage conditions. |
 
 # Method and medium
-> In a few sentences, you should document how you plan on completing your final project. 
 
-Text here...
+I plan to use Python (Pandas) to clean, combine, and analyze the MovieLens 32M dataset. I will use Tableau to create interactive visualizations that allow readers to explore the relationship between users' rating habits and preferences. For the final presentation, I plan to use Shorthand to combine visualizations and narrative text into a cohesive, interactive data story. I will also use GitHub to document my project development process and share the final project.
 
 ## References
-_List any references you used here._
+
+- GroupLens Research. (2024). [MovieLens 32M Dataset](https://grouplens.org/datasets/movielens/32m/). University of Minnesota.
+- Harper, F. M., & Konstan, J. A. (2015). The MovieLens Datasets: History and Context. *ACM Transactions on Interactive Intelligent Systems, 5*(4), 19:1–19:19. [https://doi.org/10.1145/2827872](https://doi.org/10.1145/2827872)
 
 ## AI acknowledgements
-_If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
+
+I used ChatGPT to help refine my research questions, organize the story structure, and develop Python code for preliminary data analysis. I also used ChatGPT to improve the clarity, wording, and grammar of my written content.
