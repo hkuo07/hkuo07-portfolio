@@ -1,16 +1,21 @@
 | [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
 
-> Important note: this template includes major elements of Part I, but the instructions on Canvas are the authoritative source.  Make sure to read through the assignment page and review the rubric to confirm you have everything you need before submitting.  When done, delete these instructions before submitting.
+# The Hidden Taste
+*Do our movie habits really reflect our preferences?*
 
 # Outline
-> Include a high-level summary of your project.  This should be a couple paragraphs that describe what you're interested in showing with your final project. 
- 
-Text here...
+For this final project, I plan to explore the relationship between users' movie rating habits and their preferences, with a particular interest in how these insights can inform movie recommendation systems. The movie genres users interact with most frequently may not necessarily be the ones they enjoy the most. For example, in my preliminary analysis of the MovieLens 32M dataset, one user rated 102 drama movies with an average rating of 3.55, while rating only 19 action movies with a higher average rating of 4.11. This example raises an interesting question: if recommendations rely heavily on interaction frequency, could some of a user's interests be overlooked?
 
-> A project structure that outlines the major elements of your story.  Your Good Charts text talks about story structure in Chapter 8 - you should describe what you hope to achieve.  Make sure the outline is detailed enough that we can see how you anticipate your story unfolding.  You can incorporate your Story Arc from the in-class exercise along with your user stories and one sentence summary to make the topic even more clear. 
+Using the MovieLens 32M dataset, I plan to examine how common this gap is among users by comparing their rating frequency and average rating across movie genres. I also want to identify potential hidden tastes, which I define as genres that users rate relatively infrequently but more positively than their personal average. Through this project, I hope to show recommendation system designers why it may be valuable to consider both established preferences and less-explored interests when developing personalized movie recommendations.
 
-Text here...
+**• One-line Summary**: The movie genres we engage with most frequently may not always be the ones we enjoy the most.
+
+**• Target Audience**: Product managers, data analysts, and movie recommendation system designers.
+
+**• Reader's Perspective**: As a designer of movie recommendation systems, I want to understand how users' most frequently rated movie genres differ from their highest-rated genres so that I can identify overlooked interests and improve personalized recommendations.
+
+**• Call to Action**: Consider both frequently rated genres and less-explored but highly rated genres when designing personalized movie recommendations.
 
 ## Initial sketches
 > Post images of your anticipated data visualizations (sketches are fine). They should mimic aspects of your outline, and include elements of your story.  
