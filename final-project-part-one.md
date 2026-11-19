@@ -47,6 +47,8 @@ Using the MovieLens 32M dataset, I plan to examine how common this gap is among 
 
 ## Initial sketches
 
+*Note: All visualizations in this section are preliminary sketches intended to illustrate the planned analysis and design. Some values are illustrative and do not represent actual analysis results.*
+
 ### Sketch 1: Exploring the Preference Gap at the Individual Level
 
 ![Comparison of rating frequency and average rating by genre](sketch1.png)
@@ -71,13 +73,11 @@ This scatter plot will explore the relationship between relative rating frequenc
 
 This bar chart will show the percentage of eligible users with different numbers of potential hidden tastes. I plan to use orange to highlight the most common number and gray for the remaining bars. This visualization will help reveal how widespread potential hidden tastes are and whether users tend to have multiple hidden interests, highlighting opportunities to explore preferences beyond their frequently rated genres.
 
-*Note: The genre rankings and percentages shown are illustrative and do not represent actual analysis results.*
-
 # The data
 
 For this project, I will use the MovieLens 32M dataset, provided by the GroupLens Research Group at the University of Minnesota. The dataset contains 32 million ratings across 87,585 movies from 200,948 users, collected between January 1995 and October 2023. I will primarily use two files: `movies.csv`, which contains movie IDs, titles, and genres, and `ratings.csv`, which contains user IDs, movie IDs, ratings, and timestamps.
 
-I plan to combine these two files using movie IDs and calculate the rating frequency and average rating for each genre at the individual user level. Since a movie can belong to multiple genres, I will associate each rating with all its listed genres and exclude movies without genre information. To identify potential hidden tastes, I plan to focus on genres with at least five ratings, a rating frequency no more than 50% of the user's most frequently rated genre, and an average rating above the user's personal average. These criteria will help me identify less frequently rated but positively rated genres while reducing the influence of limited rating observations.
+I plan to combine these two files using movie IDs and calculate the rating frequency and average rating for each genre at the individual user level. I plan to include users with at least 50 movie ratings in the broader analysis to ensure sufficient data for comparing their genre preferences. Since a movie can belong to multiple genres, I will associate each rating with all its listed genres and exclude movies without genre information. To identify potential hidden tastes, I plan to focus on genres with at least five ratings, a rating frequency no more than 50% of the user's most frequently rated genre, and an average rating above the user's personal average. These criteria will help me identify less frequently rated but positively rated genres while reducing the influence of limited rating observations.
 
 One limitation of this dataset is that it captures rating behavior rather than actual viewing history. Therefore, I will use rating frequency and average ratings as indicators of users' habits and preferences rather than direct measures of their viewing behavior.
 
