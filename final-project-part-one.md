@@ -7,16 +7,16 @@
 # Outline
 
 ## High-level Summary
-For this final project, I plan to explore the relationship between users' movie rating habits and their preferences, with a particular interest in how these insights can inform movie recommendation systems. The movie genres users interact with most frequently may not necessarily be the ones they enjoy the most. For example, in my preliminary analysis of the MovieLens 32M dataset, one user rated 102 drama movies with an average rating of 3.55, while rating only 19 action movies with a higher average rating of 4.11. This example raises an interesting question: if recommendations rely heavily on interaction frequency, could some of a user's interests be overlooked?
+For this final project, I plan to explore the relationship between users' movie rating habits and their preferences, with a particular interest in how these insights can inform movie recommendation systems. The movie genres users interact with most frequently may not necessarily be the ones they enjoy the most. For example, in my preliminary analysis of the MovieLens 32M dataset, one user rated 102 drama movies with an average rating of 3.55, while rating only 19 action movies with a higher average rating of 4.11. This example raises an interesting question: if recommendation systems rely heavily on interaction frequency, could some of a user's interests be overlooked?
 
-Using the MovieLens 32M dataset, I plan to examine how common this gap is among users by comparing their rating frequency and average rating across movie genres. I also want to identify potential hidden tastes, which I define as genres that users rate relatively infrequently but more positively than their personal average. Through this project, I hope to show recommendation system designers why it may be valuable to consider both established preferences and less-explored interests when developing personalized movie recommendations.
+Using the MovieLens 32M dataset, I plan to examine how common this gap is among users by identifying users whose most frequently rated genres differ from their highest-rated genres. I also want to identify potential hidden tastes, which I define as genres that users rate relatively infrequently but more positively than their personal average. Through this project, I hope to encourage recommendation system designers to consider both established preferences and less-explored interests when developing personalized movie recommendations.
 
 ## Project Structure
 **One-line Summary**: The movie genres we engage with most frequently may not always be the ones we enjoy the most.
 
 **Target Audience**: Product managers, data analysts, and movie recommendation system designers.
 
-**Reader's Perspective**: As a designer of movie recommendation systems, I want to understand how users' most frequently rated movie genres differ from their highest-rated genres so that I can identify overlooked interests and improve personalized recommendations.
+**Reader's Perspective**: As a designer of movie recommendation systems, I want to understand whether users' most frequently rated movie genres differ from the genres they rate most highly on average so that I can identify potential hidden interests and explore ways to make personalized recommendations more responsive to users' preferences.
 
 **Call to Action**: Consider both frequently rated genres and less-explored but highly rated genres when designing personalized movie recommendations.
 
