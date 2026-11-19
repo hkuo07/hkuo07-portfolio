@@ -93,7 +93,7 @@ One limitation of this dataset is that it captures rating behavior rather than a
 
 # Method and medium
 
-I plan to use Python (Pandas) to clean, combine, and analyze the MovieLens 32M dataset. I will use Tableau to create interactive visualizations that allow readers to explore the relationship between users' rating habits and preferences. For the final presentation, I plan to use Shorthand to combine visualizations and narrative text into a cohesive, interactive data story. I will also use GitHub to document my project development process and share the final project.
+I plan to use Python (Pandas) to clean, combine, and analyze the MovieLens 32M dataset. I will use Tableau to create interactive visualizations that allow readers to explore the relationship between users' rating habits and preferences. For the final presentation, I plan to use Shorthand to combine visualizations and narrative text into a interactive data story. I will also use GitHub to document my project development process and share the final project.
 
 ## References
 
