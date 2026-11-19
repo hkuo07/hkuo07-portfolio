@@ -42,8 +42,8 @@ Using the MovieLens 32M dataset, I plan to examine how common this gap is among 
   - Visualization 5: Show the distribution of eligible users by the number of potential hidden tastes they have.
 
 - **Call to Action**
-  - Encourage recommendation designers to consider both established preferences and potential hidden tastes.
-  - Discuss implications for more diverse and personalized recommendations.
+  - Encourage recommendation designers to consider potential hidden tastes alongside users' established preferences.
+  - Suggest exploring recommendations across multiple genres based on each user's potential hidden interests.
 
 ## Initial sketches
 
@@ -65,11 +65,11 @@ This waffle chart will show the proportion of users whose most frequently rated 
 
 This scatter plot will explore the relationship between relative rating frequency and average rating. I plan to use orange to highlight genres that users rate less frequently but more positively than their personal average. The two reference lines will help readers identify potential hidden tastes.
 
-### Sketch 4: Which Genres Are Hidden Tastes?
+### Sketch 4: How Many Potential Hidden Tastes Do Users Have?
 
-![Movie genres most commonly identified as hidden tastes](sketch4.png)
+![Distribution of potential hidden tastes per user](sketch4.png)
 
-This horizontal bar chart will show the percentage of eligible users who have each movie genre as a potential hidden taste. I plan to arrange the genres in descending order and use orange to highlight the most common one, while keeping the remaining genres gray. This visualization will help recommendation system designers identify opportunities to introduce users to less-explored movie genres.
+This bar chart will show the percentage of eligible users with different numbers of potential hidden tastes. I plan to use orange to highlight the most common number and gray for the remaining bars. This visualization will help reveal how widespread potential hidden tastes are and whether users tend to have multiple hidden interests, highlighting opportunities to explore preferences beyond their frequently rated genres.
 
 *Note: The genre rankings and percentages shown are illustrative and do not represent actual analysis results.*
 
