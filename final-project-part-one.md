@@ -23,29 +23,27 @@ Using the MovieLens 32M dataset, I plan to examine how common this gap is among 
 ### An Outline
 
 - **Introduction of the Topic**
-  - Introduce the role of user interactions in movie recommendation systems.
-  - Explain the difference between rating frequency and average rating.
-  - Introduce the central question: Do our movie habits really reflect our preferences?
+  - Introduce the role of user interactions in movie recommendations.
+  - Highlight how rating frequency and average rating may reveal different preferences.
+  - Raise the central question: Do our movie habits really reflect our preferences?
 
 - **Explore the Preference Gap at the Individual Level**
-  - Visualization 1: Show the number of ratings across movie genres for an individual user to identify their most frequently rated genres.
-  - Visualization 2: Show the average rating of each genre for the same user and compare it with their rating frequency.
-  - Highlight the differences between frequently rated genres and highly rated genres.
+  - Visualization 1: Show an individual user's rating frequency by genre.
+  - Visualization 2: Compare the same user's average ratings across genres.
+  - Highlight gaps between frequently rated and highly rated genres.
 
 - **Expand the Analysis to a Broader Group of Users**
   - Visualization 3: Show the proportion of eligible users whose most frequently rated genres differ from their highest-rated genres.
-  - Examine whether the preference gap is an isolated case or a common pattern among users.
+  - Examine how common this preference gap is.
 
 - **Discover Potential Hidden Tastes**
-  - Define hidden tastes as relatively infrequently rated genres with average ratings above a user's personal average, subject to a minimum number of ratings.
-  - Visualization 4: Explore the relationship between relative rating frequency and average rating, highlighting potential hidden tastes.
-  - Visualization 5: Identify which movie genres are most commonly associated with users' hidden tastes.
-  - Discuss how these findings relate to the reader's perspective.
+  - Define hidden tastes as less frequently rated genres with above-personal-average ratings, subject to a minimum rating count.
+  - Visualization 4: Plot relative rating frequency against average rating to highlight potential hidden tastes.
+  - Visualization 5: Show the distribution of eligible users by the number of potential hidden tastes they have.
 
 - **Call to Action**
-  - Encourage movie recommendation system designers to consider less frequently rated but highly rated genres alongside users' established interests.
-  - Discuss the potential for more diverse and personalized movie recommendations.
-  - Conclude the story.
+  - Encourage recommendation designers to consider both established preferences and potential hidden tastes.
+  - Discuss implications for more diverse and personalized recommendations.
 
 ## Initial sketches
 
@@ -71,7 +69,7 @@ This scatter plot will explore the relationship between relative rating frequenc
 
 ![Movie genres most commonly identified as hidden tastes](sketch4.png)
 
-This horizontal bar chart will show the percentage of eligible users for whom each movie genre is identified as a potential hidden taste. I plan to arrange the genres in descending order and use orange to highlight the most common one, while keeping the remaining genres gray. This visualization will help recommendation system designers identify opportunities to introduce users to less-explored movie genres.
+This horizontal bar chart will show the percentage of eligible users who have each movie genre as a potential hidden taste. I plan to arrange the genres in descending order and use orange to highlight the most common one, while keeping the remaining genres gray. This visualization will help recommendation system designers identify opportunities to introduce users to less-explored movie genres.
 
 *Note: The genre rankings and percentages shown are illustrative and do not represent actual analysis results.*
 
