@@ -75,7 +75,7 @@ This bar chart will show the percentage of eligible users with different numbers
 
 # The data
 
-For this project, I will use the MovieLens 32M dataset, provided by the GroupLens Research Group at the University of Minnesota. The dataset contains 32,000,204 ratings across 87,585 movies from 200,948 users, collected between January 1995 and October 2023. I will primarily use two files: `movies.csv`, which contains movie IDs, titles, and genres, and `ratings.csv`, which contains user IDs, movie IDs, ratings, and timestamps.
+For this project, I will use the MovieLens 32M dataset, provided by the GroupLens Research Group at the University of Minnesota. The dataset contains 32 million ratings across 87,585 movies from 200,948 users, collected between January 1995 and October 2023. I will primarily use two files: `movies.csv`, which contains movie IDs, titles, and genres, and `ratings.csv`, which contains user IDs, movie IDs, ratings, and timestamps.
 
 I plan to combine these two files using movie IDs and calculate the rating frequency and average rating for each genre at the individual user level. Since a movie can belong to multiple genres, I will associate each rating with all its listed genres and exclude movies without genre information. To identify potential hidden tastes, I plan to focus on genres with at least five ratings, a rating frequency no more than 50% of the user's most frequently rated genre, and an average rating above the user's personal average. These criteria will help me identify less frequently rated but positively rated genres while reducing the influence of limited rating observations.
 
