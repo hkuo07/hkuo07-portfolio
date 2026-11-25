@@ -8,7 +8,11 @@
 
 ## Project Overview
 
-The movie genres users rate most frequently may not necessarily be the ones they enjoy the most. My project explores the relationship between rating frequency and average ratings to identify potential hidden tastes and examine how these findings could inform personalized movie recommendations.
+Movie recommendation systems can use users' past interactions to understand their interests. However, interacting with a particular movie genre more frequently does not necessarily mean that a user enjoys it more.
+
+In this project, I use rating frequency to represent how often users interact with a genre through ratings, and average rating as an indicator of how much they enjoy that genre. By comparing these two measures, I aim to understand whether users' rating habits align with their preferences.
+
+If recommendation systems rely heavily on rating frequency, they may prioritize frequently rated genres while overlooking genres that users rate less often but enjoy more. My project aims to identify these potential hidden tastes and highlight the importance of considering both rating frequency and average ratings when designing personalized movie recommendations.
 
 ### Reader's Perspective
 
