@@ -104,7 +104,7 @@ The goal of my research is to evaluate whether the visualizations are intuitive,
 
 Thank you for participating in my user research. My project explores whether movie rating habits reflect users' preferences and how potential hidden tastes could inform movie recommendations.
 
-I will show you my draft story and ask several questions. I am evaluating the clarity of my story, not your knowledge of data visualization. Please feel free to share any confusion, observations, or suggestions.
+I will show you my draft story and ask a few questions. The goal is to understand how clearly my story communicates its main ideas. There are no right or wrong answers, so please feel free to share your thoughts, suggestions, or anything you find unclear.
 
 ### Research Goals and Interview Questions
 
@@ -127,7 +127,7 @@ Thank you for your feedback. Your responses will help me improve the visualizati
 
 ## Interview Findings
 
-The following findings summarize the participants' observations and suggestions. All participants are described anonymously.
+The following findings summarize the participants' observations and suggestions.
 
 ### Participant 1
 
@@ -190,15 +190,12 @@ Based on the interview findings, I plan to maintain the existing story structure
 | Participant 2 felt that Visualizations 1 and 2 contained too many genres. | Reduce less relevant categories and emphasize the comparison between Action and Animation. |
 | Participant 1 suggested an alternative chart type for Visualization 3. | Explore a waffle chart and compare its effectiveness with the current stacked bar chart. |
 | Participant 2 questioned the high percentage in Visualization 3. | Clarify the first-ranked genre comparison, minimum rating requirements, and treatment of tied rankings. |
-| Participant 2 suggested comparing the top three genres. | Examine the overlap between the top three most frequently rated and highest-rated genres to evaluate the influence of the ranking methodology. |
+| Participant 2 suggested comparing the top three genres. | Compare the top three most frequently rated genres with the top three highest-rated genres to see whether the preference gap remains as pronounced. |
 | Participant 3 found the percentages in Visualization 3 difficult to read. | Increase the font size of the key percentages. |
 | Participant 3 liked the quadrant structure of Visualization 4 but found the genre labels cluttered. | Retain the quadrant structure and data points while displaying labels only for the most relevant genres. |
-| The analytical definitions in Visualization 4 need to be consistent. | Review the relative rating frequency calculation, reference lines, and explanatory notes. |
 | Participants 1 and 3 found the percentage labels in Visualization 5 excessive. | Remove unnecessary labels while retaining the percentage for the most common outcome. |
 | Participant 1 suggested adjusting the x-axis title in Visualization 5. | Move the x-axis title below the chart. |
 | Participant 1 suggested connecting the individual example with the broader distribution. | Add a small person icon or annotation above the bar representing three potential hidden tastes. |
-
-My main priorities for Part III are to improve visual clarity, analytical transparency, and the connections between visualizations while maintaining the practical relevance of the story to recommendation system designers.
 
 ---
 
