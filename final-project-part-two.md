@@ -78,7 +78,7 @@ What if recommendation systems considered both rating habits and potential hidde
 
 For the individual introduced earlier, a frequency-based strategy might prioritize Action while overlooking Animation. Instead of recommending four Action movies, an alternative strategy could recommend two Action movies and two Animation movies.
 
-This illustrative strategy considers both rating habits and potential hidden tastes. Future A/B testing could evaluate whether it improves user satisfaction, engagement, or movie discovery.
+By considering both rating frequency and average ratings, recommendation systems could better account for users' potential interests and help them discover movies they might otherwise overlook.
 
 ### Call to Action
 
@@ -204,13 +204,11 @@ My main priorities for Part III are to improve visual clarity, analytical transp
 
 ## References
 
-- [GroupLens Research – MovieLens 32M Dataset](https://grouplens.org/datasets/movielens/32m/)
-- [Tableau](https://www.tableau.com/)
+- GroupLens Research. (2024). [MovieLens 32M Dataset](https://grouplens.org/datasets/movielens/32m/). University of Minnesota.
+- Harper, F. M., & Konstan, J. A. (2015). The MovieLens Datasets: History and Context. *ACM Transactions on Interactive Intelligent Systems, 5*(4), 19:1–19:19. [https://doi.org/10.1145/2827872](https://doi.org/10.1145/2827872)
 
 ## AI Acknowledgements
 
-I used ChatGPT to help refine my research questions, develop Python code for data processing, organize the story structure, and explore alternative visualization designs.
+I developed the project concept, identified the research direction, analyzed the MovieLens dataset, and created the five visualizations using Tableau. I also conducted user interviews, collected feedback, and identified areas for improvement in my final project.
 
-ChatGPT also helped me develop the interview protocol, organize my interview notes, synthesize feedback, draft and edit the written narrative, and structure the GitHub Markdown page.
-
-I provided the project concept, research direction, participant feedback, and design preferences. I used Python to process the MovieLens dataset and Tableau to create the five draft visualizations.
+I used ChatGPT as a supporting tool to refine my ideas, assist with Python code development, and explore visualization alternatives. It also helped me organize my research findings and refine the written content.
